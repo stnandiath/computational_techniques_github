@@ -1,4 +1,4 @@
-import math
+#Consider the function f(x) = 2 cos x − x. Consider the three initial guesses x0 = 0.5, π & 2π and for these guesses find the roots using Newton-Raphson method.import math
 import numpy as np
 import matplotlib.pyplot as plt
 

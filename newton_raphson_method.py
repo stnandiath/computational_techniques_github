@@ -10,9 +10,9 @@ def df(x):
 
 x = np.array([0.5, np.pi, 2*np.pi]) #Guesses
 tolerance = 1e-6
-max = 100
+Nmax = 100
 
-for i in range(max):
+for i in range(Nmax):
     y = f(x)
     slope = df(x)
 
